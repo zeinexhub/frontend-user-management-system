@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>User Management System</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <main>
@@ -22,28 +23,36 @@
           <input type="email" id="email" name="email" required />
           <!-- phone Number -->
           <label for="phone">Phone Number</label>
-          <input type="tel" id="" name="" />
+          <input type="tel" id="phone" name="phone" required />
           <!-- gender -->
           <fieldset>
             <legend>Gender</legend>
-            <label> <input type="radio" id="" name="" />Male </label>
-            <label> <input type="radio" id="" name="" />Female </label>
+            <label> <input type="radio" name="gender" />Male </label>
+            <label> <input type="radio" name="gender" />Female </label>
           </fieldset>
           <!-- skills -->
           <fieldset>
             <legend>Skills</legend>
-            <label> <input type="checkbox" id="" name="" />HTML</label>
-            <label> <input type="checkbox" id="" name="" />CSS</label>
-            <label> <input type="checkbox" id="" name="" />JavaScrript </label>
+            <label> <input type="checkbox" name="skills" />HTML</label>
+            <label> <input type="checkbox" name="skills" />CSS</label>
+            <label> <input type="checkbox" name="skills" />JavaScrript </label>
           </fieldset>
           <!-- password -->
-          <label for="password">password</label>
-          <input type="password" id="" name="" required />
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" required />
           <!-- confirm password -->
           <label for="confirmPassword">Confirm Password</label>
-          <input type="password" id="" name="" required />
+          <input
+            type="password"
+            id="confirmPassword"
+            name="confirmPassword"
+            required
+          />
           <!-- show password -->
-          <label><input type="checkbox" id="" name="" />Show Password</label>
+          <label
+            ><input type="checkbox" id="showPassword" name="" />Show
+            Password</label
+          >
           <!-- terms & condition -->
           <label for=""
             ><input type="checkbox" id="" name="" required />I agree to the

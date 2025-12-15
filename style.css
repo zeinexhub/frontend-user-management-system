@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f4f6f8;
+  color: #222;
+  line-height: 1.5;
+}
+
+main {
+  max-width: 700px;
+  margin: 40px auto;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.078);
+}
+
+section {
+  margin-bottom: 35px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #0f172a;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+label {
+  font-weight: 600;
+}
+
+input {
+  border: 2px solid #cbd5e1;
+  padding: 8px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #2563eb;
+}
+
+input:valid {
+  border-color: #16a34a;
+}
+
+button {
+  background-color: #2563eb;
+  color: #ffffff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 10px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #1d4ed8;
+}
+
+fieldset {
+  border: 1px solid #e2e8f0;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+legend {
+  padding: 0 8px;
+  font-weight: 600;
+}
+
+fieldset label {
+  font-weight: normal;
+  display: block;
+  margin-bottom: 6px;
+}
+
+@media (max-width: 600px) {
+  main {
+    margin: 20px;
+    padding: 20px;
+  }
+}
